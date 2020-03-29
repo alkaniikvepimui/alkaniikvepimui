@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 /* line 11, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_normalize.scss */
 html {
   line-height: 1.15;
@@ -371,9 +372,11 @@ template {
   display: none;
 }
 
-/* line 1, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
-p {
-  color: red;
+/* line 5, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
+* {
+  background-color: #f3f3f3;
+  color: #343233;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
