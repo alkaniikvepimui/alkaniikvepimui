@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap");
 /* line 11, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_normalize.scss */
 html {
   line-height: 1.15;
@@ -377,20 +377,30 @@ template {
   background-color: #f3f3f3;
   color: #343233;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 10em;
 }
 
-/* line 9, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
+/* line 11, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
+img {
+  max-width: 100vh;
+}
+
+/* line 15, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
+.flex-enable {
+  display: flex;
+}
+
+/* line 19, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
 #main {
   height: 100vh;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* line 16, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
+/* line 25, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
 .message {
   max-width: 50%;
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
