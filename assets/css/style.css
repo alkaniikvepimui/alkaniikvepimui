@@ -378,27 +378,26 @@ template {
   color: #343233;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
-  font-size: 10em;
 }
 
-/* line 11, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
+/* line 10, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
 img {
   max-width: 100vh;
 }
 
-/* line 15, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
+/* line 14, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
 .flex-enable {
   display: flex;
 }
 
-/* line 19, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
+/* line 18, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
 #main {
   height: 100vh;
   align-items: center;
   justify-content: center;
 }
 
-/* line 25, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
+/* line 24, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
 .message {
   max-width: 50%;
   flex-direction: column;
