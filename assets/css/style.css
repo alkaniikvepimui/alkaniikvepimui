@@ -373,31 +373,32 @@ template {
 }
 
 /* line 3, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
-* {
+img {
+  max-width: 100%;
+}
+
+/* line 7, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
+p {
+  margin: 10px 0px 10px 0px;
+}
+
+/* line 11, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
+.flex-enable {
+  display: flex;
+}
+
+/* line 15, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
+#main {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
   background-color: #f3f3f3;
   color: #343233;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
 }
 
-/* line 10, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
-img {
-  max-width: 100%;
-}
-
-/* line 14, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
-.flex-enable {
-  display: flex;
-}
-
-/* line 18, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
-#main {
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-}
-
-/* line 24, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
+/* line 25, ../../xampp/htdocs/alkaniikvepimui.github.io/assets/scss/_main.scss */
 .message {
   max-width: 50%;
   flex-direction: column;
